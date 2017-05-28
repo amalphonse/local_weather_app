@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Local Weather App</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <script type="text/javascript" src="weather.js"></script>
+        <script src='https://darkskyapp.github.io/skycons/skycons.js'></script> 
+</head>
+<body>
+    <div class="jumbotron text-center">
+      <h1> Local Weather App </h1>
+      <p>Provides weather details for your current location!</p> 
+    </div>
+    <div class="container">
+        <div class="row text-center">
+            <canvas id="environ-icon" width="64" height="64"></canvas>
+                <div class="temperature">
+				    <div class="temp-celsius">°C</div>
+				    <div class="temp-fahrenheit">°F</div>
+				</div> 
+        <div class="row">
+            <div class="col-sm-4 details">
+                <div class="location"></div>
+                <div class="country"></div>
+            </div>
+         <div class="col-sm-4 details"> 
+            <div id="humidity"></div>
+            <div id="wind-speed"></div>
+        </div>
+        <div class="col-sm-4 details"> 
+            <div id="visibilty"></div>
+            <div id="summary"></div>         
+        </div>
+    </div>  
+    </div>
+
+<footer class="container-fluid text-center">
+  <p>Designed and coded by Anju Mercian</p>
+</footer>
+</body>
+</html>
+  
